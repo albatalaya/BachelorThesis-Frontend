@@ -1,0 +1,13 @@
+<ion-content padding class="background" scrollY="false">
+    <div class= "backdrop" [ngClass]="backdropVisible ? 'fade-in' : 'fade'" tappable (click)="drawer.clickDrawer()"></div>
+    <ion-img src="../../assets/img/logo.png"></ion-img>
+    <ion-label class="ion-text-center"> Optical warning of bicycle riders</ion-label>
+   
+    <app-button [page]="page" ></app-button>
+
+    <app-drawer (openStateChanged)="drawerBackground($event)" #drawer></app-drawer>
+
+    
+</ion-content>
+
+

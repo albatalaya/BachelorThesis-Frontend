@@ -1,0 +1,13 @@
+<ion-content padding class="background" scrollY="false">
+  <ion-img src="../../assets/img/logo.png"></ion-img>
+  <ion-label class="ion-text-center"> Optical warning of bicycle riders</ion-label>
+
+  <app-button [page]="page" [timer]="timer" (state)="changeState($event)"></app-button>
+  <div class="time">{{('0'+time.getHours()).slice(-2)}}:{{('0'+time.getMinutes()).slice(-2)}}:{{('0'+time.getSeconds()).slice(-2)}} </div>
+  
+</ion-content>
+   
+  
+
+
+  

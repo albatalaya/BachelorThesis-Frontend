@@ -1,0 +1,27 @@
+ion-content.background{
+    --background: url(../../assets/img/background.png) 0 0/100% 100% no-repeat;
+  }
+  
+  ion-img {
+    padding: 25%;
+    padding-bottom: 10px;
+  }
+  
+  ion-label{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    padding: 50px;
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+  }
+
+  .time{
+    margin-top: 30px;
+    font-weight: bold;
+    color: #454545;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+  }
