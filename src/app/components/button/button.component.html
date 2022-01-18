@@ -1,0 +1,18 @@
+<div class= "container">
+  <div class="circle">
+      <div class="outer-circle"></div>
+      <div class="inner-circle"></div>
+
+      
+      <div [ngClass]="{'box-top-right': pressing}"></div>
+      <div [ngClass]="{'box-bottom-right': pressing}"></div>
+      <div [ngClass]="{'box-bottom-left': pressing}"></div>
+      <div [ngClass]="{'box-top-left': pressing}"></div>
+
+      <div [ngClass]="{'hide-progress-bar': !pressing}"></div>
+
+      <ion-button class="start-button">
+        <img src={{img_src}}>
+      </ion-button>
+  </div>
+</div>

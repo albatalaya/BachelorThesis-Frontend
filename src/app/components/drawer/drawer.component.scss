@@ -1,0 +1,36 @@
+.drawer {
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    bottom: calc(-65vh + env(safe-area-inset-bottom));
+    height: 80vh;
+    z-index: 22;
+    background: rgb(222, 222, 222);
+    opacity: 0.9;
+
+    box-shadow: 5px 0px 30px 5px #7d7d7d;
+
+    .title{
+        margin: 25px;
+        margin-bottom: 40px;
+        font-size: 25px;
+        font-weight: bold;
+        color: #000;
+        display: block;
+    }
+    .instructions{
+        margin: 20px;
+        font-size: 18px;
+        color: #000;
+        display: block;
+    }
+}
+
+.line{
+    margin-top: 10px;
+    background: #454545;
+    --background-activated:#454545;
+    height: 5px;
+    width: 150px;
+    border-radius: 2px;
+}
