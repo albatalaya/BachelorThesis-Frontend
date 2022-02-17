@@ -15,7 +15,7 @@ The result of the work is a smartphone app, developed in Ionic/Angular, that det
 https://www.youtube.com/watch?v=WKyUsdZbQ0Y
 
 ### MORE REPOSITORIES
-https://github.com/albatalaya/BachelorThesis-Backend
+https://github.com/albatalaya/BachelorThesis-Backend <br/>
 https://github.com/albatalaya/BachelorThesis-SoundAnalysis
 
 ### WRITTEN DOCUMENT
