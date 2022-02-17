@@ -19,4 +19,4 @@ https://github.com/albatalaya/BachelorThesis-Backend <br/>
 https://github.com/albatalaya/BachelorThesis-SoundAnalysis
 
 ### WRITTEN DOCUMENT
-https://drive.google.com/file/d/1W9WNSWfAUw6QbGhV8i21iMjh5ElIAYnA/view?usp=sharing
+The Written document with the final report of my Bachelor Thesis, can be found inside this folder with the name "Bachelor Thesis - Alba Talaya Vidal.pdf".
