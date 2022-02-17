@@ -10,8 +10,14 @@ The result of the work is a smartphone app, developed in Ionic/Angular, that det
 
 2022, Vienna
 
+
 ### VIDEO DEMO
-https://www.youtube.com/watch?v=GPKONG1mJ90
+https://studio.youtube.com/video/WKyUsdZbQ0Y/edit
+
+### MORE REPOSITORIES
+https://github.com/albatalaya/BachelorThesis-Frontend
+https://github.com/albatalaya/BachelorThesis-Backend
+https://github.com/albatalaya/BachelorThesis-SoundAnalysis
 
 ### WRITTEN DOCUMENT
 https://drive.google.com/file/d/1W9WNSWfAUw6QbGhV8i21iMjh5ElIAYnA/view?usp=sharing
