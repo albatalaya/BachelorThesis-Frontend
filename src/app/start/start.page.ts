@@ -48,7 +48,7 @@ export class StartPage implements OnInit {
         this.pause = true;
         this.mediaRecorder.stop();
 
-        axios.post("http://193.170.63.37:8080/status/pause").then((res: any) => {
+        axios.post("http://127.0.0.1:8080/status/pause").then((res: any) => {
           console.log(res.data.connection)
         }).catch((err: any) => console.warn(err)); 
 
@@ -57,7 +57,7 @@ export class StartPage implements OnInit {
       case 'STOP': {
         this.pause = true; 
 
-        axios.post("http://193.170.63.37:8080/status/stop").then((res: any) => {
+        axios.post("http://127.0.0.1:8080/status/stop").then((res: any) => {
           console.log(res.data.connection)
         }).catch((err: any) => console.warn(err));  
 
@@ -90,7 +90,7 @@ export class StartPage implements OnInit {
             formdata.append("AudioFile",blob, "my_audio.wav");
           if (chunks.length ==1){ //SEND DATA
             
-            await axios.post("http://193.170.63.37:8080/status/play", formdata).then((res: any) => {
+            await axios.post("http://127.0.0.1:8080/status/play", formdata).then((res: any) => {
                 console.log(res.data.warning)
                 if(res.data.warning){
                   Haptics.impact({style: ImpactStyle.Light});
