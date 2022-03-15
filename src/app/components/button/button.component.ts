@@ -79,7 +79,7 @@ export class ButtonComponent implements AfterViewInit {
         if (this.page=='home' || this.page=='resume'){
           if(!this.sendRecording){
             this.mediaRecorder.stop();
-            axios.post("http://193.170.63.37:8080/status/stop").then((res: any) => {
+            axios.post("http://127.0.0.1:8080/status/stop").then((res: any) => {
               console.log(res.data.connection)
             }).catch((err: any) => console.warn(err));
           } else {
@@ -193,7 +193,7 @@ export class ButtonComponent implements AfterViewInit {
           var formdata = new FormData();  
           formdata.append("AudioFile",this.blob, "my_audio.wav");
             
-          await axios.post("http://193.170.63.37:8080/status/play", formdata).then((res: any) => {
+          await axios.post("http://127.0.0.1:8080/status/play", formdata).then((res: any) => {
                 
               }).catch((err: any) => {
                 console.log('error 3s')
